@@ -1,6 +1,6 @@
 # micronaut-duplicatedateheader-withstreamedfile
 
-A controller (DocumentController) with an endpoint (download) which returns CompletedFile returns the date header twice in the response headers.
+A controller (DocumentController) with an endpoint (download) which returns StreamedFile returns the date header twice in the response headers.
 
 ```
 curl --location --request GET 'localhost:8080/api/document/download' --head
